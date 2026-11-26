@@ -1,0 +1,17 @@
+# Files left out of the release zip.
+# The release pipeline (hideokamoto/circleci-configurations
+# workflows/release/wordpress-plugin-github-release.yaml) builds the zip with
+# `git archive`, which skips paths marked export-ignore.
+/.github export-ignore
+/.circleci export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/.wp-env.json export-ignore
+/composer.json export-ignore
+/composer.lock export-ignore
+/package.json export-ignore
+/package-lock.json export-ignore
+/phpunit.xml.dist export-ignore
+/tests export-ignore
+/vendor export-ignore
+/node_modules export-ignore
