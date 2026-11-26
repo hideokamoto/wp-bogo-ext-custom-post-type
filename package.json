@@ -8,8 +8,8 @@
     "wp-env:stop": "wp-env stop",
     "wp-env:destroy": "wp-env destroy",
     "test": "npm run wp-env:start && npm run test:php",
-    "test:php": "wp-env run tests-cli --env-cwd=wp-content/plugins/bogo-ext-custom-post-type vendor/bin/phpunit",
-    "test:setup": "wp-env run tests-cli --env-cwd=wp-content/plugins/bogo-ext-custom-post-type composer install"
+    "test:php": "wp-env run tests-cli --env-cwd=wp-content/plugins/wp-bogo-ext-custom-post-type vendor/bin/phpunit",
+    "test:setup": "wp-env run tests-cli --env-cwd=wp-content/plugins/wp-bogo-ext-custom-post-type composer install"
   },
   "repository": {
     "type": "git",
